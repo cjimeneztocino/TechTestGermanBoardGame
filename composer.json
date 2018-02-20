@@ -1,0 +1,22 @@
+{
+    "name": "cristobal/tech-test-german-board-game",
+    "description": "Mensch aergere dich nich implementation",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Cristobal Jimenez",
+            "email": "cristobal.jimenez.84@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { 
+            "CJimenez\\AergereDichNicht\\": "src/",
+            "CJimenez\\AergereDichNicht\\Test\\": "tests/"
+        }
+    }
+}
